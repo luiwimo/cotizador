@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cotiza tu próximo auto</h1>
+    </header>
+
+        <section class="form">
+            <div class="inputs">
+                <label for="">Marca:</label>
+                <input type="text" id="Marca" required>
+            </div>
+            <div class="inputs">
+                <label for="">Modelo:</label>
+                <input type="text" id="Modelo" required>
+            </div>
+            <div class="inputs">
+                <label for="">Presupuesto:</label>
+                <input type="text" id="Presupuesto" required>
+            </div>
+            <div class="inputs">
+                <label for="">Transmisión</label>
+                <select name="" id="transmision" required>
+                    <option value="0" selected disabled>------Selecione una Opción-----</option >
+                    <option value="manual">Manual</option>
+                    <option value="automatico">Automático</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <button id="Cotizar">Cotizar</button>
+            </div>
+
+        </section>
+
+        <section id="image">
+            <img src="https://latam-editorial.pxcrush.net/soloautos/general/editorial/collage_autologia.jpg?pxc_method=crop&height=725&width=1087" alt="No disponible">
+        </section>
+
+        <section class="container">
+
+        </section>
+    
+    <script src="./bd.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
